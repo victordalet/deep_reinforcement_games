@@ -6,8 +6,6 @@ import time
 
 line_game = LineWorldEnv()
 
-print('> export PYTHONPATH="${PYTHONPATH}:src"')
-
 print("TEST LINE SEARCH | ITERATION")
 A = np.array([0, 1])  # left, right
 S = np.array([0, 1, 2, 3, 4])  # agent position
