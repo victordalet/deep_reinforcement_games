@@ -46,8 +46,6 @@ for i in range(0, len(S)):
                 0 if (((i + 1) * c) + j) != 24 else 2,
             ] = 1
 
-print('> export PYTHONPATH="${PYTHONPATH}:src"')
-
 print("TEST GRID SEARCH | ITERATION")
 
 start_time = time.time()
